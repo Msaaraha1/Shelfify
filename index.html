@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SHELFIFY</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>Shelfify</h1>
+    </div>
+
+    <div class="container">
+        
+        <div class="book-container">
+            <h2>war and peace</h2>
+            <h5>Leo Tolstoy</h5>
+            <p>A epic novel about the French invasion of Russia and the impact of the Napoleonic era on Russian society.</p>
+            <button onclick="deleteBook(event)">Delete</button>
+        </div>
+
+        <div class="book-container">
+            <h2>Autobiography of Yogi</h2>
+            <h5>Paramahansa Yogananda</h5>
+            <p>The ultimate guide to the practice of yoga and self-realization.</p>
+            <button onclick="deleteBook(event)">Delete</button>
+        </div>
+    </div>
+
+    <!-- Pop-up Overlay and Box  -->
+    <div class="pop-up-overlay"></div>
+    <div class="pop-up-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-pop-up">Cancel</button>
+        </form>
+    </div>
+
+    <!-- Floating Add Button-->
+    <button class="add-button" id="add-pop-up-button">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

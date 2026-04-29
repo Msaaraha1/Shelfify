@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #edf7ff;
+}
+
+.nav-bar {
+    background-color: #038894; 
+    padding: 10px;
+}
+
+.container {
+    padding: 10px; 
+}
+
+.book-container {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 25%;
+    display: inline-block; /* Allows side-by-side cards */
+    vertical-align: top;
+    margin: 30px;
+    border-radius: 10px; 
+}
+
+.book-container h2 {
+    color: #038894;
+}
+
+.book-container button {
+    background-color: #038894;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer; 
+}
+
+/* Floating Add Button */
+.add-button {
+    background-color: #038894;
+    border: none;
+    border-radius: 100%;
+    padding: 20px 30px;
+    font-size: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+/* Pop-up Overlay*/
+.pop-up-overlay {
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none; /* Hidden by default */
+}
+
+/* Pop-up Box*/
+.pop-up-box {
+    background-color: #038894;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none; /* Hidden by default  */
+
+}
+
+.pop-up-box input, .pop-up-box textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    color:black;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.pop-up-box input::placeholder, .pop-up-box textarea::placeholder {
+    color:rgb(54, 52, 52);
+}
+
+.pop-up-box button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
