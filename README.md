@@ -38,14 +38,14 @@ It allows users to add, display, and remove books dynamically with a professiona
 
 ## ✨ Features
 
-✅ Add books with title, author, and description
-✅ Display books in responsive cards
-✅ Delete books instantly
-✅ Floating add button
-✅ Popup modal form
-✅ Clean modern UI
-✅ Fully responsive layout
-✅ Beginner-friendly code structure
+* ✅ Add books with title, author, and description
+* ✅ Display books in responsive cards
+* ✅ Delete books instantly
+* ✅ Floating add button
+* ✅ Popup modal form
+* ✅ Clean modern UI
+* ✅ Fully responsive layout
+* ✅ Beginner-friendly code structure
 
 ---
 
