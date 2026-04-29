@@ -17,8 +17,8 @@ Manage your personal book collection with a clean, responsive, and interactive i
 
 ## 🖼️ Project Preview
 
-<img src="screenshot1.png" width="100%" alt="Shelflify Screenshot">
-<img src="screenshot2.png" width="100%" alt="Shelflify Screenshot">
+<img src="https://github.com/Msaaraha1/Shelfify/blob/main/Screenshot1.png" width="100%" alt="Shelflify Screenshot">
+<img src="https://github.com/Msaaraha1/Shelfify/blob/main/Screenshot2.png" width="100%" alt="Shelflify Screenshot">
 
 ---
 
