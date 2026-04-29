@@ -142,8 +142,8 @@ If you like this project, please give it a ⭐ on GitHub.
 
 ## 📬 Connect With Me
 
-* LinkedIn: https://linkedin.com/in/yourprofile
-* GitHub: https://github.com/yourusername
+* LinkedIn: https://www.linkedin.com/in/msaaraha01/
+* GitHub: https://github.com/Msaaraha1
 
 ---
 
